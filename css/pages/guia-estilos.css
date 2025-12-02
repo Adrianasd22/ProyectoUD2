@@ -1,0 +1,26 @@
+.ui-kit {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 16px;
+}
+
+.swatches {
+    display: flex;
+    gap: 12px;
+}
+
+.swatch {
+    padding: 18px;
+    border-radius: 8px;
+    color: #fff;
+    min-width: 120px;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 1.6rem;
+}
+
+.h2 {
+    font-size: 1.2rem;
+}

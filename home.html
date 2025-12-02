@@ -1,17 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Clinyr — Inicio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/pages/home.css">
 </head>
+
 <body>
-    <header>
-        <img src="" alt="Logo Clinyr">
-        <h2>Clinyr</h2>
-    </header>
-    <main>
-        
-    </main>
+    <div class="app-grid">
+        <aside class="sidebar">
+            <div class="brand-small">Clinyr</div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="funcionalidades/prescripcion/citas-sesion.html">Lista de citas</a></li>
+                    <li><a href="funcionalidades/prescripcion/buscador-pacientes.html">Buscar pacientes</a></li>
+                    <li><a href="funcionalidades/modulo2-sass/mapa-camas.html">Mapa de camas</a></li>
+                    <li><a href="funcionalidades/modulo2-sass/hoja-medicacion.html">Hoja de medicación</a></li>
+                    <li><a href="#">Registro de urgencias</a></li>
+                    <li><a href="#">Triaje</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-area">
+            <header class="main-header">
+                <h2>Bienvenido a Clinyr</h2>
+                <div class="user-info">Dr. Usuario</div>
+            </header>
+
+            <section class="cards-grid">
+                <article class="card">
+                    <h3>Citas hoy</h3>
+                    <p class="big">24</p>
+                </article>
+                <article class="card">
+                    <h3>Pacientes en planta</h3>
+                    <p class="big">12</p>
+                </article>
+                <article class="card">
+                    <h3>Urgencias</h3>
+                    <p class="big">3</p>
+                </article>
+            </section>
+
+            <section class="recent">
+                <h3>Últimas prescripciones</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Paciente</th>
+                            <th>Fecha</th>
+                            <th>Medicación</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pérez López, Ana</td>
+                            <td>2025-11-20</td>
+                            <td>Paracetamol</td>
+                        </tr>
+                        <tr>
+                            <td>García Moreno, Luis</td>
+                            <td>2025-11-21</td>
+                            <td>Amoxicilina</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
 </body>
+
 </html>

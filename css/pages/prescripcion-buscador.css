@@ -1,0 +1,12 @@
+.results {
+    list-style: none;
+    padding: 0;
+    margin-top: 12px;
+}
+
+.results li {
+    background: var(--surface);
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}

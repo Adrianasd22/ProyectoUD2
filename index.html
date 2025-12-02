@@ -1,40 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Clinyr — Login</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/components/buttons.css">
-    <link rel="stylesheet" href="css/components/forms.css">    
     <link rel="stylesheet" href="css/pages/login.css">
-    <title>Login</title>
 </head>
-<body>
-    <header>
-        <img src="" alt="Logo Clinyr">
-        <h2>Clinyr</h2>
-    </header>
 
-    <main>
-        <fieldset class="login">
-            <legend>Inicio de Sesión</legend>
-            <form class="formulario" action="">
-                <label>Nombre:
-                    <input type="text" placeholder="Nombre y Apellidos">
-                </label>
+<body class="page-login">
+    <main class="login-container">
+        <header class="brand">
+            <h1>Clinyr</h1>
+            <p>Sistema de gestión hospitalaria</p>
+        </header>
 
-                <label>Correo Electrónico:
-                    <input type="email" placeholder="Email">
-                </label>
+        <form class="login-card" action="home.html" method="get">
+            <label for="user">Usuario</label>
+            <input id="user" name="user" type="text" placeholder="usuario" required>
 
-                <input class="btn" type="button" value="Inicia Sesión">
-            </form>
-        </fieldset>
-        <div class="creacuenta">
-            <h2>¿Aún no tienes cuenta en Clinyr?</h2>
-            <p>Descarga tus informes médicos <br> Solicita y gestiona tus citas <br> Consulta a nuestros especialistas</p>
-            <p><a href="#">Crea una cuenta aquí</a></p>
-        </div>
+            <label for="pass">Contraseña</label>
+            <input id="pass" name="pass" type="password" placeholder="contraseña" required>
+
+            <button class="btn primary" type="submit">Entrar</button>
+        </form>
+
+        <footer class="login-footer">&copy; 2025 Clinyr</footer>
     </main>
 </body>
 </html>

@@ -1,24 +1,10 @@
-/*BOTÓN PRINCIPAL*/
-.btn{
-    margin-top: 10px;
-    padding: 12px;
+.btn {
+    display: inline-block;
+    text-decoration: none;
     border: none;
-    border-radius: 12px;
-
-    background: #d9d9ff;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-
-    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
-    transition: 0.2s;
 }
 
-.btn:hover{
-    background: #b9b9ff;
-    transform: scale(1.03);
+.btn.primary {
+    background: var(--primary);
+    color: #fff;
 }
-/*
-:root{
-    --color-primario:red;
-}*/

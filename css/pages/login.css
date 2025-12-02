@@ -1,7 +1,9 @@
-/*CENTRADO DEL LOGIN*/
-main{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.page-login {
+    background: linear-gradient(180deg, #f5f7fa 0%, #fff 100%);
+}
+
+.login-footer {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-top: 12px;
 }
