@@ -1,3 +1,9 @@
-.prescribe {
-    margin-top: 12px;
+.detalle-cita {
+    background: white;
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+}
+
+.detalle-cita h2 {
+    color: var(--clinyr-blue-primary);
 }

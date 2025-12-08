@@ -10,8 +10,7 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
-                triaje: resolve(__dirname, 'triaje.html'),
-                sala_espera: resolve(__dirname, 'sala-espera.html'),
+                triaje: resolve(__dirname, 'triaje.html')
             },
         },
     },

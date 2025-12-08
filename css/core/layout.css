@@ -1,38 +1,30 @@
 .container {
-    max-width: 1100px;
+    width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 16px;
+    padding: var(--spacing-md);
 }
 
-.brand {
-    text-align: center;
-    margin-bottom: 12px;
+.header,
+.footer {
+    background-color: var(--clinyr-blue-primary);
+    color: white;
+    padding: var(--spacing-md);
 }
 
-.login-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    padding: 24px;
+.main {
+    margin-top: var(--spacing-lg);
 }
 
-.login-card {
-    background: var(--surface);
-    padding: 18px;
-    border-radius: 10px;
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    box-shadow: 0 6px 24px rgba(5, 10, 20, 0.06);
+.grid {
+    display: grid;
+    gap: var(--spacing-md);
 }
 
-input,
-textarea {
-    padding: 10px;
-    border-radius: 6px;
-    border: 1px solid #ddd;
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
 }

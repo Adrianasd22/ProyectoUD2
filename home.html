@@ -1,78 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Clinyr — Inicio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinyr - Dashboard</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/pages/home.css">
 </head>
 
 <body>
-    <div class="app-grid">
-        <aside class="sidebar">
-            <div class="brand-small">Clinyr</div>
-            <nav>
-                <ul>
-                    <li><a href="home.html">Inicio</a></li>
-                    <li><a href="funcionalidades/prescripcion/citas-sesion.html">Lista de citas</a></li>
-                    <li><a href="funcionalidades/prescripcion/buscador-pacientes.html">Buscar pacientes</a></li>
-                    <li><a href="funcionalidades/modulo2-sass/mapa-camas.html">Mapa de camas</a></li>
-                    <li><a href="funcionalidades/modulo2-sass/hoja-medicacion.html">Hoja de medicación</a></li>
-                    <li><a href="#">Registro de urgencias</a></li>
-                    <li><a href="#">Triaje</a></li>
-                </ul>
-            </nav>
-        </aside>
-
-        <main class="main-area">
-            <header class="main-header">
-                <h2>Bienvenido a Clinyr</h2>
-                <div class="user-info">Dr. Usuario</div>
-            </header>
-
-            <section class="cards-grid">
-                <article class="card">
-                    <h3>Citas hoy</h3>
-                    <p class="big">24</p>
-                </article>
-                <article class="card">
-                    <h3>Pacientes en planta</h3>
-                    <p class="big">12</p>
-                </article>
-                <article class="card">
-                    <h3>Urgencias</h3>
-                    <p class="big">3</p>
-                </article>
-            </section>
-
-            <section class="recent">
-                <h3>Últimas prescripciones</h3>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Paciente</th>
-                            <th>Fecha</th>
-                            <th>Medicación</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Pérez López, Ana</td>
-                            <td>2025-11-20</td>
-                            <td>Paracetamol</td>
-                        </tr>
-                        <tr>
-                            <td>García Moreno, Luis</td>
-                            <td>2025-11-21</td>
-                            <td>Amoxicilina</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </main>
-    </div>
+    <header class="header">
+        <h1>Clinyr Hospital - Dashboard</h1>
+    </header>
+    <main class="container dashboard">
+        <a href="funcionalidades/prescripcion/citas-sesion.html" class="card button-primary">Prescripciones</a>
+        <a href="enfermeria-sass-vite/dist/" class="card button-secondary">Unidad Enfermería</a>
+        <a href="urgencias-tailwind-vite/dist/" class="card button-secondary">Urgencias</a>
+    </main>
+    <footer class="footer">
+        &copy; 2025 Clinyr Hospital
+    </footer>
 </body>
 
 </html>

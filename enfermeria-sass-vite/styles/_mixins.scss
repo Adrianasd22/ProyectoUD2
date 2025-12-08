@@ -1,0 +1,9 @@
+@mixin button($bg, $color) {
+    background-color: $bg;
+    color: $color;
+    padding: $spacing-sm $spacing-md;
+    border-radius: $border-radius;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}

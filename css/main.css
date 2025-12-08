@@ -1,120 +1,14 @@
-@import url('./core/reset.css');
-@import url('./core/variables.css');
-@import url('./core/layout.css');
-@import url('./components/buttons.css');
-@import url('./components/forms.css');
-@import url('./components/cards.css');
-@import url('./components/tables.css');
-
-:root {
-    --bg: #f5f7fa;
-    --surface: #ffffff;
-    --primary: #0b74de;
-    --accent: #0b9e6a;
-    --text: #222;
-    --muted: #6b7280;
-    --radius: 8px;
-}
-
-body {
-    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
-    background: var(--bg);
-    color: var(--text);
-}
-
-.container {
-    max-width: 1100px;
-    margin: 28px auto;
-    padding: 18px;
-}
-
-.btn {
-    padding: 10px 14px;
-    border-radius: 6px;
-    border: 1px solid transparent;
-    background: transparent;
-    cursor: pointer;
-}
-
-.btn.primary {
-    background: var(--primary);
-    color: white;
-}
-
-.btn.small {
-    padding: 6px 10px;
-    font-size: 0.9rem;
-}
-
-.card {
-    background: var(--surface);
-    padding: 14px;
-    border-radius: var(--radius);
-    box-shadow: 0 2px 8px rgba(20, 20, 40, 0.05);
-}
-
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    background: var(--surface);
-}
-
-.table th,
-.table td {
-    padding: 10px;
-    border-bottom: 1px solid #eee;
-    text-align: left;
-}
-
-/* Layout dashboard */
-.app-grid {
-    display: grid;
-    grid-template-columns: 220px 1fr;
-    min-height: 100vh;
-}
-
-.sidebar {
-    background: #fff;
-    padding: 18px;
-    border-right: 1px solid #eee;
-}
-
-.main-area {
-    padding: 18px;
-}
-
-.cards-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    margin-top: 12px;
-}
-
-.card .big {
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-.mini-header {
-    background: var(--surface);
-    padding: 12px 18px;
-    border-bottom: 1px solid #eee;
-    display: flex;
-    gap: 12px;
-    align-items: center;
-}
-
-/* responsive */
-@media (max-width:800px) {
-    .app-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .cards-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .sidebar {
-        order: 2
-    }
-}
+@import "core/reset.css";
+@import "core/variables.css";
+@import "core/layout.css";
+@import "components/buttons.css";
+@import "components/forms.css";
+@import "components/cards.css";
+@import "components/tables.css";
+@import "pages/login.css";
+@import "pages/home.css";
+@import "pages/guia-estilos.css";
+@import "pages/prescripcion-citas.css";
+@import "pages/prescripcion-detalle.css";
+@import "pages/prescripcion-historia.css";
+@import "pages/prescripcion-buscador.css";

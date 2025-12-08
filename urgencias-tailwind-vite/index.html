@@ -1,21 +1,40 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urgencias Clinyr</title>
   <link href="/src/main.css" rel="stylesheet">
-  <title>urgencias-tailwind-vite</title>
 </head>
 
-<body class="bg-slate-100 min-h-screen">
-  <header class="bg-blue-900 text-white p-4">
-    <h1 class="text-xl font-semibold">Módulo de Urgencias - Hospital</h1>
+<body class="bg-clinyrBlueLight min-h-screen">
+  <header class="bg-clinyrBlue text-white p-4">
+    <h1 class="text-xl font-semibold">Módulo de Urgencias - Clinyr</h1>
   </header>
 
-  <main class="p-4">
-    <!-- Aquí tus pantallas: lista de urgencias, triaje, etc. -->
+  <main class="p-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-lg font-semibold mb-2">Registro en urgencias</h2>
+      <form class="space-y-3">
+        <input type="text" placeholder="Nombre del paciente" class="w-full p-2 border rounded">
+        <input type="text" placeholder="Motivo de ingreso" class="w-full p-2 border rounded">
+        <button class="bg-clinyrBlue text-white px-4 py-2 rounded hover:bg-blue-700" type="submit">
+          Registrar
+        </button>
+      </form>
+    </div>
+
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-lg font-semibold mb-2">Triaje</h2>
+      <form class="space-y-3">
+        <input type="text" placeholder="Paciente" class="w-full p-2 border rounded">
+        <input type="text" placeholder="Signos vitales" class="w-full p-2 border rounded">
+        <button class="bg-clinyrBlue text-white px-4 py-2 rounded hover:bg-blue-700" type="submit">
+          Guardar Triaje
+        </button>
+      </form>
+    </div>
   </main>
 
   <script type="module" src="/main.js"></script>

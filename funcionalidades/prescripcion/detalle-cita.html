@@ -1,41 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Detalle de cita — Clinyr</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinyr - Detalle de Cita</title>
     <link rel="stylesheet" href="../../css/main.css">
-    <link rel="stylesheet" href="../../css/pages/prescripcion-detalle.css">
 </head>
 
 <body>
-    <header class="mini-header"><a href="citas-sesion.html">← Volver</a>
-        <h1>Detalle de cita</h1>
+    <header class="header">
+        <h1>Clinyr - Detalle de Cita</h1>
     </header>
-
-    <main class="container">
-        <section class="info">
-            <h2>Pérez López, Ana</h2>
-            <p>Fecha: 2025-11-20 — Hora: 09:00</p>
-        </section>
-
-        <section class="prescribe">
-            <h3>Registrar prescripción</h3>
-            <form action="detalle-cita.html" method="post" class="form-presc">
-                <label>Medicamento</label>
-                <input placeholder="Introducir medicamento">
-
-                <label>Dosis</label>
-                <input placeholder="Ej. 500 mg">
-
-                <label>Instrucciones</label>
-                <textarea rows="4"></textarea>
-
-                <button class="btn primary" type="submit">Guardar prescripción</button>
+    <main class="container detalle-cita">
+        <div class="card">
+            <h2>Paciente: Juan Pérez</h2>
+            <p>Fecha: 08/12/2025</p>
+            <p>Hora: 09:00</p>
+            <p>Motivo: Dolor de cabeza</p>
+        </div>
+        <div class="card">
+            <h3>Prescripción Médica</h3>
+            <form>
+                <div class="form-group">
+                    <label for="medicamento">Medicamento</label>
+                    <input type="text" id="medicamento" placeholder="Nombre del medicamento">
+                </div>
+                <div class="form-group">
+                    <label for="dosis">Dosis</label>
+                    <input type="text" id="dosis" placeholder="Dosis">
+                </div>
+                <div class="form-group">
+                    <label for="frecuencia">Frecuencia</label>
+                    <input type="text" id="frecuencia" placeholder="Cada X horas/días">
+                </div>
+                <button class="button button-primary" type="submit">Guardar Prescripción</button>
             </form>
-        </section>
+        </div>
     </main>
+    <footer class="footer">
+        &copy; 2025 Clinyr Hospital
+    </footer>
 </body>
 
 </html>

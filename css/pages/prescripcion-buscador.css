@@ -1,12 +1,9 @@
-.results {
-    list-style: none;
-    padding: 0;
-    margin-top: 12px;
+.buscador-pacientes {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
 }
 
-.results li {
-    background: var(--surface);
-    padding: 10px;
-    margin-bottom: 8px;
-    border-radius: 8px;
+.buscador-pacientes input {
+    flex: 1;
 }

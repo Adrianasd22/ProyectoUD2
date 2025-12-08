@@ -1,17 +1,34 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triaje - Clinyr</title>
     <link href="/src/main.css" rel="stylesheet">
-    <title>triaje</title>
 </head>
 
-<body>
-    <main></main>
-    <script type="module" src="./main.js"></script>
+<body class="bg-clinyrBlueLight min-h-screen">
+    <header class="bg-clinyrBlue text-white p-4">
+        <h1 class="text-xl font-semibold">Triaje - Clinyr</h1>
+    </header>
+
+    <main class="p-4">
+        <div class="bg-white p-6 rounded shadow max-w-md mx-auto">
+            <h2 class="text-lg font-semibold mb-4">Registro de Triaje</h2>
+            <form class="space-y-3">
+                <input type="text" placeholder="Paciente" class="w-full p-2 border rounded">
+                <input type="text" placeholder="Temperatura" class="w-full p-2 border rounded">
+                <input type="text" placeholder="Presión arterial" class="w-full p-2 border rounded">
+                <input type="text" placeholder="Frecuencia cardíaca" class="w-full p-2 border rounded">
+                <button class="bg-clinyrBlue text-white px-4 py-2 rounded hover:bg-blue-700" type="submit">
+                    Guardar
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <script type="module" src="/main.js"></script>
 </body>
 
 </html>
