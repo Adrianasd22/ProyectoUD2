@@ -1,4 +1,5 @@
+@use 'variables';
 .map-camas,
 .hoja-medicacion {
-    margin-top: $spacing-md;
+    margin-top: variables.$spacing-md;
 }

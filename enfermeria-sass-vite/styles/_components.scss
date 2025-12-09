@@ -1,7 +1,8 @@
+@use 'variables';
 .button-primary {
-    @include button($clinyr-blue-primary, white);
+    background-color: variables.$clinyr-blue-primary;
 }
 
 .button-primary:hover {
-    background-color: $clinyr-blue-secondary;
+    background-color: variables.$clinyr-blue-secondary;
 }

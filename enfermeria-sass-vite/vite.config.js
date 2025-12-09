@@ -6,9 +6,7 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: {
-                main: resolve(__dirname, 'index.html'),
-                camas: resolve(__dirname, 'camas.html'),
-                medicacion: resolve(__dirname, 'medicacion.html'),
+                main: resolve(__dirname, 'index.html')
             },
         },
     },
