@@ -14,8 +14,11 @@ body {
 
 .header {
     background: variables.$clinyr-blue-primary;
-    color: white;
     padding: variables.$spacing-md;
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 .card {
