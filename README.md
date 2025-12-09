@@ -1,5 +1,8 @@
 # Proyecto Unidad 2 - DIW
-- Adriana Salazar Daza
-- Nombre del Hospital: Clinyr
-- URL despliegue:
-- Estructura del proyecto:
+Adriana Salazar Daza
+2ºDAW - T
+
+# Enlace de Github Pages
+https://adrianasd22.github.io/ProyectoUD2/ 
+
+# Estructura de Proyecto
