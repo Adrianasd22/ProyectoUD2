@@ -1,8 +1,62 @@
-# Proyecto Unidad 2 - DIW
-Adriana Salazar Daza
-2ºDAW - T
+# Clinyr Hospital - Aplicación Web (Proyecto UD2)
 
-# Enlace de Github Pages
-https://adrianasd22.github.io/ProyectoUD2/ 
+## Autor
+Nombre del alumno: Adriana Salazar Daza
 
-# Estructura de Proyecto
+## Título del proyecto
+Simulación de aplicación web para administrar el funcionamiento de un hospital.
+
+## URL de despliegue en GitHub Pages
+- Proyecto principal (CSS puro + home):  
+  `https://adrianasd22.github.io/ProyectoUD2/`
+- Módulo Enfermería (Vite + Sass):  
+  `https://adrianasd22.github.io/ProyectoUD2/enfermeria-sass-vite/dist/`
+- Módulo Urgencias (Vite + Tailwind):  
+  `https://adrianasd22.github.io/ProyectoUD2/urgencias-tailwind-vite/dist/`
+
+## Estructura del proyecto
+```
+hospital-frontend/
+├─ index.html ← Login (CSS puro)
+├─ home.html ← Dashboard principal
+├─ guia-estilos.html ← Guía de estilos global
+├─ css/ ← CSS puro
+│ ├─ main.css
+│ ├─ core/
+│ ├─ components/
+│ └─ pages/
+├─ funcionalidades/
+│ └─ prescripcion/ ← Funcionalidad prescripciones (CSS puro)
+├─ enfermeria-sass-vite/ ← Módulo Enfermería (Vite + Sass)
+│ ├─ index.html
+│ ├─ medicacion.html
+│ ├─ main.js
+│ ├─ styles/
+│ └─ dist/
+└─ urgencias-tailwind-vite/ ← Módulo Urgencias (Vite + Tailwind)
+├─ index.html
+├─ triaje.html
+├─ main.js
+├─ src/
+└─ dist/
+```
+
+## Descripción de funcionalidades
+
+### 1. Prescripciones médicas (CSS puro)
+- Lista de citas
+- Detalle de cita + registro prescripción
+- Historia clínica
+- Búsqueda de pacientes
+
+### 2. Unidad de Enfermería (Sass + Vite)
+- Mapa de camas
+- Hoja de medicación
+- Variables, mixins y anidado para mantener estilos organizados
+- Build mediante Vite (`npm run build` genera `/dist`)
+
+### 3. Urgencias (Tailwind + Vite)
+- Registro en urgencias
+- Triaje
+- Clases utilitarias Tailwind para diseño rápido y responsive
+- Build mediante Vite (`npm run build` genera `/dist`)
