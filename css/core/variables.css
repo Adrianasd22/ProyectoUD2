@@ -1,17 +1,13 @@
 :root {
-    --clinyr-blue-primary: #0d6efd;
-    --clinyr-blue-secondary: #198cff;
-    --clinyr-blue-light: #cfe2ff;
-    --clinyr-gray-dark: #343a40;
-    --clinyr-gray-light: #f8f9fa;
-    --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --font-size-base: 16px;
-    --font-size-lg: 1.25rem;
-    --font-size-sm: 0.875rem;
-    --spacing-xs: 4px;
-    --spacing-sm: 8px;
-    --spacing-md: 16px;
-    --spacing-lg: 24px;
-    --spacing-xl: 32px;
-    --border-radius: 8px;
+    --color-primary: #0d6efd;
+    --color-secondary: #6c757d;
+    --color-success: #198754;
+    --color-danger: #dc3545;
+    --color-warning: #ffc107;
+    --color-light: #f8f9fa;
+    --color-dark: #212529;
+
+    --font-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --radius: 8px;
+    --spacing: 1rem;
 }

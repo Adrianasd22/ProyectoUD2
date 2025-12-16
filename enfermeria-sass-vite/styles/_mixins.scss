@@ -1,9 +1,39 @@
-@mixin button($bg, $color) {
+@use 'variables' as *;
+
+@mixin boton($bg, $color) {
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    border: none;
     background-color: $bg;
     color: $color;
-    padding: $spacing-sm $spacing-md;
-    border-radius: $border-radius;
-    border: none;
     cursor: pointer;
     transition: background 0.3s;
+
+    &:hover {
+        background-color: darken($bg, 10%);
+    }
+}
+
+@mixin tarjeta {
+    background-color: $color-tarjeta;
+    padding: $espacio-base;
+    border-radius: $radio-borde;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@mixin tabla {
+    width: 100%;
+    border-collapse: collapse;
+
+    th,
+    td {
+        border: 1px solid #dee2e6;
+        padding: 0.5rem;
+        text-align: left;
+    }
+
+    th {
+        background-color: $color-principal;
+        color: white;
+    }
 }

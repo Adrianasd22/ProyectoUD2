@@ -1,8 +1,28 @@
-@use 'variables';
-.button-primary {
-    background-color: variables.$clinyr-blue-primary;
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.boton-primario {
+    @include boton($color-principal, white);
 }
 
-.button-primary:hover {
-    background-color: variables.$clinyr-blue-secondary;
+.boton-secundario {
+    @include boton($color-secundario, white);
+}
+
+.tarjeta {
+    @include tarjeta;
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    p {
+        margin: 0.25rem 0;
+    }
+}
+
+.tabla {
+    @include tabla;
 }

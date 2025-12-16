@@ -1,21 +1,16 @@
-table {
+.table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: var(--spacing-md);
 }
 
-th,
-td {
-    padding: var(--spacing-sm);
+.table th,
+.table td {
+    padding: 0.75rem;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ccc;
 }
 
-th {
-    background-color: var(--clinyr-blue-light);
-    color: var(--clinyr-gray-dark);
-}
-
-tr:hover {
-    background-color: #e9f2ff;
+.table th {
+    background-color: var(--color-light);
+    font-weight: 600;
 }

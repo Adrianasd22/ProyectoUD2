@@ -6,29 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triaje - Clinyr</title>
     <link href="/src/main.css" rel="stylesheet">
+    <script type="module" src="/main.js"></script>
 </head>
 
-<body class="bg-clinyrBlueLight min-h-screen">
-    <header class="bg-blue-600 text-white p-4">
-        <h1 class="text-xl font-semibold">Clinyr</h1>
+<body class="bg-slate-100 min-h-screen">
+    <header class="bg-blue-900 text-white p-4 text-center">
+        <h1 class="text-xl font-semibold">Triaje - Clinyr</h1>
     </header>
 
-    <main class="p-4">
-        <div class="bg-white p-6 rounded shadow max-w-md mx-auto">
-            <h2 class="text-lg font-semibold mb-4">Registro de Triaje</h2>
-            <form class="space-y-3">
-                <input type="text" placeholder="Paciente" class="w-full p-2 border rounded">
-                <input type="text" placeholder="Temperatura" class="w-full p-2 border rounded">
-                <input type="text" placeholder="Presión arterial" class="w-full p-2 border rounded">
-                <input type="text" placeholder="Frecuencia cardíaca" class="w-full p-2 border rounded">
-                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700" type="submit">
-                    Guardar
-                </button>
-            </form>
+    <main class="p-4 space-y-4">
+        <div class="bg-white p-4 rounded-lg shadow">
+            <h2 class="font-semibold text-lg">Paciente: Ana López</h2>
+            <p>Edad: 45</p>
+            <p>Motivo: Dolor abdominal</p>
+            <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Atender</button>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+            <h2 class="font-semibold text-lg">Paciente: Juan Pérez</h2>
+            <p>Edad: 30</p>
+            <p>Motivo: Fiebre</p>
+            <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Atender</button>
         </div>
     </main>
-
-    <script type="module" src="/main.js"></script>
 </body>
 
 </html>

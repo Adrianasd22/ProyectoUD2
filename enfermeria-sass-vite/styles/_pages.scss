@@ -1,5 +1,31 @@
-@use 'variables';
-.map-camas,
+@use 'variables' as *;
+@use 'mixins' as *;
+
+
+.mapa-camas {
+    .habitacion {
+        @include tarjeta;
+        text-align: center;
+
+        &.ocupada {
+            border: 2px solid $color-alerta;
+        }
+
+        &.libre {
+            border: 2px solid $color-ok;
+        }
+    }
+}
+
 .hoja-medicacion {
-    margin-top: variables.$spacing-md;
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        gap: $espacio-base;
+        margin-bottom: $espacio-base;
+    }
+
+    .tabla-medicacion {
+        @include tabla;
+    }
 }

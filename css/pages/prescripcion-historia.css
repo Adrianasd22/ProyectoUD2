@@ -1,7 +1,3 @@
-.historia-clinica .card {
-    margin-bottom: var(--spacing-md);
-}
-
-.historia-clinica h3 {
-    color: var(--clinyr-blue-secondary);
+.historia .table td {
+    vertical-align: top;
 }

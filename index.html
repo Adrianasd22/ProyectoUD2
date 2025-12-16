@@ -4,31 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinyr - Login</title>
+    <title>Login - Clinyr</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
-    <header class="header">
-        <h1>Clinyr</h1>
-    </header>
-    <main class="login-page">
-        <h1>Iniciar sesión</h1>
-        <form>
-            <div class="form-group">
-                <label for="usuario">Usuario</label>
-                <input type="text" id="usuario" placeholder="Usuario">
-            </div>
-            <div class="form-group">
-                <label for="clave">Contraseña</label>
-                <input type="password" id="clave" placeholder="Contraseña">
-            </div>
-            <button class="button button-primary" type="submit"><a href="./home.html">Ingresar</a></button>
+<body class="login-page">
+
+    <main class="login-card">
+        <h1>Clinyr Hospital</h1>
+        <form class="form">
+            <label>
+                Usuario
+                <input type="text" placeholder="Usuario">
+            </label>
+            <label>
+                Contraseña
+                <input type="password" placeholder="Contraseña">
+            </label>
+            <a href="home.html" class="btn btn-primary">Entrar</a>
         </form>
     </main>
-    <footer class="footer">
-        &copy; 2025 Clinyr Hospital
-    </footer>
+
 </body>
 
 </html>

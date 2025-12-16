@@ -1,7 +1,4 @@
-.citas-list {
-    margin-top: var(--spacing-md);
-}
-
-.citas-list .card {
-    cursor: pointer;
+.citas .table th,
+.citas .table td {
+    padding: 0.5rem;
 }

@@ -16,29 +16,58 @@ Simulación de aplicación web para administrar el funcionamiento de un hospital
 
 ## Estructura del proyecto
 ```
-hospital-frontend/
-├─ index.html ← Login (CSS puro)
+ProyectoUD2/
+├─ index.html ← Login (CSS puro) Con enlace a home.html
 ├─ home.html ← Dashboard principal
 ├─ guia-estilos.html ← Guía de estilos global
 ├─ css/ ← CSS puro
 │ ├─ main.css
 │ ├─ core/
+│ │ ├─ layout.css
+│ │ ├─ reset.css
+│ │ └─ variables.css
 │ ├─ components/
+│ │ ├─ buttons.css
+│ │ ├─ cards.css
+│ │ ├─ forms.css
+│ │ └─ tables.css
 │ └─ pages/
+│   ├─ home.css
+│   ├─ login.css
+│   ├─ prescripcion-buscador.css
+│   ├─ prescripcion-citas.css
+│   ├─ prescripcion-detalle.css
+│   └─ prescripcion-historia.css
 ├─ funcionalidades/
 │ └─ prescripcion/ ← Funcionalidad prescripciones (CSS puro)
+│   ├─ buscador-pacientes.html
+│   ├─ citas-sesion.html
+│   ├─ detalle-cita.html
+│   └─ historia-clinica.html
 ├─ enfermeria-sass-vite/ ← Módulo Enfermería (Vite + Sass)
 │ ├─ index.html
+│ ├─ mapa-camas.html
 │ ├─ medicacion.html
+│ ├─ vite.config.js
 │ ├─ main.js
 │ ├─ styles/
+│ │ ├─ _components.scss
+│ │ ├─ _layout.scss
+│ │ ├─ _mixins.scss
+│ │ ├─ _pages.scss
+│ │ ├─ _variables.scss
+│ │ └─ main.scss
 │ └─ dist/
-└─ urgencias-tailwind-vite/ ← Módulo Urgencias (Vite + Tailwind)
-├─ index.html
-├─ triaje.html
-├─ main.js
-├─ src/
-└─ dist/
+├─ urgencias-tailwind-vite/ ← Módulo Urgencias (Vite + Tailwind)
+│ ├─ index.html
+│ ├─ triaje.html
+│ ├─ sala-espera.html
+│ ├─ main.js
+│ ├─ vite.config.js
+│ ├─ styles/
+│ │ └─ main.css
+│ └─ dist/
+└─ README.md
 ```
 
 ## Descripción de funcionalidades

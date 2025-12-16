@@ -4,47 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinyr - Búsqueda de Pacientes</title>
+    <title>Buscador de Pacientes - Clinyr</title>
     <link rel="stylesheet" href="../../css/main.css">
 </head>
 
 <body>
-    <header class="header">
-        <h1><a href="../../home.html">Clinyr</a></h1>
-    </header>
-    <main class="container buscador-pacientes">
-        <form class="buscador-pacientes">
-            <input type="text" placeholder="Nombre o ID del paciente">
-            <button class="button button-primary" type="submit">Buscar</button>
-        </form>
-        <div class="card">
-            <h2>Resultados de búsqueda</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Paciente</th>
-                        <th>Edad</th>
-                        <th>Última cita</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Juan Pérez</td>
-                        <td>34</td>
-                        <td>08/12/2025</td>
-                    </tr>
-                    <tr>
-                        <td>María López</td>
-                        <td>28</td>
-                        <td>07/12/2025</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+
+    <main class="container buscador">
+        <h1>Buscador de Pacientes</h1>
+        <input type="text" placeholder="Buscar por nombre">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Paciente</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan Pérez</td>
+                    <td><a href="detalle-cita.html" class="btn btn-small btn-primary">Seleccionar</a></td>
+                </tr>
+            </tbody>
+        </table>
     </main>
-    <footer class="footer">
-        &copy; 2025 Clinyr Hospital
-    </footer>
+
 </body>
 
 </html>

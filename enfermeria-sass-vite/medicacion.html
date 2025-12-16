@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Medicación - Clinyr</title>
+    <script type="module" src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Hoja de Medicación - Clinyr</h1>
+    </header>
+
+    <main class="hoja-medicacion">
+        <form class="formulario">
+            <label for="paciente">Paciente</label>
+            <input type="text" id="paciente" name="paciente">
+
+            <label for="medicamento">Medicamento</label>
+            <input type="text" id="medicamento" name="medicamento">
+
+            <label for="dosis">Dosis</label>
+            <input type="text" id="dosis" name="dosis">
+
+            <button type="submit" class="boton-primario">Agregar</button>
+        </form>
+
+        <table class="tabla-medicacion tabla">
+            <thead>
+                <tr>
+                    <th>Paciente</th>
+                    <th>Medicamento</th>
+                    <th>Dosis</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ana López</td>
+                    <td>Paracetamol</td>
+                    <td>500mg</td>
+                    <td><button class="boton-secundario">Editar</button></td>
+                </tr>
+                <tr>
+                    <td>Juan Pérez</td>
+                    <td>Ibuprofeno</td>
+                    <td>400mg</td>
+                    <td><button class="boton-secundario">Editar</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>
