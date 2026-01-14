@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 .form-presc label {
     display: block;
     margin-top: 8px;
@@ -6,15 +8,50 @@
 
 .form-presc input,
 .form-presc textarea {
+=======
+input,
+select,
+textarea {
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
     width: 100%;
+    padding: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
 }
 
-.search-inline {
-    display: flex;
-    gap: 8px;
-    align-items: center;
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: var(--spacing-xs);
 }
 
+<<<<<<< HEAD
 .search-inline input {
     flex: 1;
+=======
+.form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form input,
+.form select,
+.form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: var(--radius);
+    margin-bottom: 1rem;
+}
+
+.form input:focus {
+    border-color: var(--color-primary);
+    outline: none;
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+.form-group {
+    margin-bottom: var(--spacing-md);
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
 }

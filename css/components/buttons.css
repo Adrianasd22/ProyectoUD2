@@ -1,10 +1,63 @@
+<<<<<<< HEAD
 .btn {
     display: inline-block;
+<<<<<<< HEAD
     text-decoration: none;
+=======
+.button {
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius);
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
     border: none;
+    cursor: pointer;
+    font-size: var(--font-size-base);
+    transition: background 0.3s;
 }
 
+<<<<<<< HEAD
 .btn.primary {
     background: var(--primary);
     color: #fff;
+=======
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary);
+    color: #fff;
+}
+
+.btn-small {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.85rem;
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+.button-primary {
+    background-color: var(--clinyr-blue-primary);
+    color: white;
+}
+
+.button-primary:hover {
+    background-color: var(--clinyr-blue-secondary);
+}
+
+.button-secondary {
+    background-color: var(--clinyr-blue-light);
+    color: var(--clinyr-gray-dark);
+}
+
+.button-secondary:hover {
+    background-color: #b3d7ff;
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
 }

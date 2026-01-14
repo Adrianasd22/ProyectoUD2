@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 .prescribe {
     margin-top: 12px;
+=======
+.detalle .form label {
+    font-weight: bold;
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+.detalle-cita {
+    background: white;
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+}
+
+.detalle-cita h2 {
+    color: var(--clinyr-blue-primary);
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
 }

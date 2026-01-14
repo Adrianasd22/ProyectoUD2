@@ -1,16 +1,12 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
-        './index.html',
-        './triaje.html'
+        "./index.html",
+        "./triaje.html",
+        "./sala-espera.html",
+        "./main.js"
     ],
     theme: {
-        extend: {
-            colors: {
-                clinyrBlue: '#0d6efd',
-                clinyrBlueLight: '#cfe2ff'
-            }
-        }
+        extend: {},
     },
     plugins: [],
-}
+};

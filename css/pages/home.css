@@ -1,9 +1,26 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 .main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+=======
+.dashboard {
+    padding: var(--spacing);
 }
 
-.recent {
-    margin-top: 18px;
+.dashboard .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing);
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-md);
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
+}
+
+.dashboard .card {
+    text-align: center;
 }

@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 .results {
     list-style: none;
     padding: 0;
@@ -9,4 +11,21 @@
     padding: 10px;
     margin-bottom: 8px;
     border-radius: 8px;
+=======
+.buscador input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: var(--spacing);
+    border-radius: var(--radius);
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+.buscador-pacientes {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.buscador-pacientes input {
+    flex: 1;
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
 }

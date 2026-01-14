@@ -1,0 +1,65 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+@use 'variables' as *;
+
+body {
+    font-family: $fuente-base;
+    background-color: $color-fondo;
+    color: $color-texto;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: $color-principal;
+    color: white;
+    padding: $espacio-base;
+    text-align: center;
+}
+
+main {
+    padding: $espacio-base;
+}
+
+.grid {
+    display: grid;
+    gap: $espacio-base;
+
+    @each $nombre, $ancho in $breakpoints {
+        @media (min-width: $ancho) {
+            &--#{$nombre} {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+        }
+    }
+}
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+body {
+    font-family: $font-primary;
+    background-color: $clinyr-gray-light;
+    color: $clinyr-gray-dark;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: $spacing-md;
+}
+
+.header {
+    background: $clinyr-blue-primary;
+    color: white;
+    padding: $spacing-md;
+}
+
+.card {
+    background: white;
+    padding: $spacing-md;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: $spacing-md;
+}
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375

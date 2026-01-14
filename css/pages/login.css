@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 .page-login {
     background: linear-gradient(180deg, #f5f7fa 0%, #fff 100%);
 }
@@ -6,4 +8,37 @@
     color: var(--muted);
     font-size: 0.9rem;
     margin-top: 12px;
+=======
+body.login-page {
+    background-color: var(--color-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: var(--radius);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+.login-page {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-page h1 {
+    text-align: center;
+    margin-bottom: var(--spacing-md);
+    color: var(--clinyr-blue-primary);
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
 }

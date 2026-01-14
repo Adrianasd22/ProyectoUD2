@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 @import url('./core/reset.css');
 @import url('./core/variables.css');
 @import url('./core/layout.css');
@@ -118,3 +120,37 @@ body {
         order: 2
     }
 }
+=======
+@import "core/reset.css";
+@import "core/variables.css";
+@import "core/layout.css";
+
+
+@import "components/buttons.css";
+@import "components/cards.css";
+@import "components/forms.css";
+@import "components/tables.css";
+
+
+@import "pages/login.css";
+@import "pages/home.css";
+=======
+@import "core/reset.css";
+@import "core/variables.css";
+@import "core/layout.css";
+@import "components/buttons.css";
+@import "components/forms.css";
+@import "components/cards.css";
+@import "components/tables.css";
+@import "pages/login.css";
+@import "pages/home.css";
+@import "pages/guia-estilos.css";
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
+@import "pages/prescripcion-citas.css";
+@import "pages/prescripcion-detalle.css";
+@import "pages/prescripcion-historia.css";
+@import "pages/prescripcion-buscador.css";
+<<<<<<< HEAD
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375

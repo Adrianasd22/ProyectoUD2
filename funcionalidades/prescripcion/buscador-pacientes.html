@@ -1,30 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
+<<<<<<< HEAD
+<<<<<<< HEAD
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Buscar pacientes — Clinyr</title>
+=======
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Pacientes - Clinyr</title>
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinyr - Búsqueda de Pacientes</title>
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
     <link rel="stylesheet" href="../../css/main.css">
-    <link rel="stylesheet" href="../../css/pages/prescripcion-buscador.css">
 </head>
 
 <body>
+<<<<<<< HEAD
+<<<<<<< HEAD
     <header class="mini-header"><a href="../../home.html">← Volver<!--Imagen de casa para volver--></a>
         <h1>Buscar pacientes</h1>
+=======
+    <header class="header">
+        <h1>Clinyr - Buscar Pacientes</h1>
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
     </header>
-
-    <main class="container">
-        <form class="search-inline">
-            <input placeholder="Nombre completo">
-            <button class="btn">Buscar</button>
+    <main class="container buscador-pacientes">
+        <form class="buscador-pacientes">
+            <input type="text" placeholder="Nombre o ID del paciente">
+            <button class="button button-primary" type="submit">Buscar</button>
         </form>
-
-        <ul class="results">
-            <li>Pérez López, Ana — 1980-03-12 —  <a href="historia-clinica.html">Ver historia</a></li>
-            <li>González Berrocal, Marta — 1992-07-01 — <a href="#">Ver historia</a></li>
-        </ul>
+        <div class="card">
+            <h2>Resultados de búsqueda</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Paciente</th>
+                        <th>Edad</th>
+                        <th>Última cita</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan Pérez</td>
+                        <td>34</td>
+                        <td>08/12/2025</td>
+                    </tr>
+                    <tr>
+                        <td>María López</td>
+                        <td>28</td>
+                        <td>07/12/2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
+<<<<<<< HEAD
+=======
+
+    <main class="container buscador">
+        <h1>Buscador de Pacientes</h1>
+        <input type="text" placeholder="Buscar por nombre">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Paciente</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan Pérez</td>
+                    <td><a href="detalle-cita.html" class="btn btn-small btn-primary">Seleccionar</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+    <footer class="footer">
+        &copy; 2025 Clinyr Hospital
+    </footer>
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
 </body>
 
 </html>

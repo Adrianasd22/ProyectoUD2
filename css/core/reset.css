@@ -1,15 +1,36 @@
+/* Reset básico */
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-html,
 body {
+<<<<<<< HEAD
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
+=======
+    font-family: var(--font-primary);
+    font-size: var(--font-size-base);
+    background-color: var(--clinyr-gray-light);
+    color: var(--clinyr-gray-dark);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
 }
 
 img {
     max-width: 100%;
+<<<<<<< HEAD
     height: auto;
 }
 
@@ -17,4 +38,12 @@ button,
 input,
 textarea {
     font: inherit;
+=======
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+    display: block;
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
 }

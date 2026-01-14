@@ -1,4 +1,36 @@
 .card {
+<<<<<<< HEAD
+<<<<<<< HEAD
     border-radius: 10px;
     padding: 12px;
+=======
+    background-color: #fff;
+    padding: var(--spacing);
+    border-radius: var(--radius);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: var(--color-dark);
+    display: block;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+    background: white;
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: var(--spacing-md);
+}
+
+.card h2 {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-sm);
+}
+
+.card p {
+    margin-bottom: var(--spacing-xs);
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
 }

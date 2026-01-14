@@ -1,0 +1,41 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.boton-primario {
+    @include boton($color-principal, white);
+}
+
+.boton-secundario {
+    @include boton($color-secundario, white);
+}
+
+.tarjeta {
+    @include tarjeta;
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    p {
+        margin: 0.25rem 0;
+    }
+}
+
+.tabla {
+    @include tabla;
+}
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+.button-primary {
+    @include button($clinyr-blue-primary, white);
+}
+
+.button-primary:hover {
+    background-color: $clinyr-blue-secondary;
+}
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375

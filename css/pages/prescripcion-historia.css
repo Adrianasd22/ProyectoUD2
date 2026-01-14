@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 .history .card {
     margin-bottom: 12px;
+=======
+.historia .table td {
+    vertical-align: top;
+>>>>>>> e86efef9d6331f20f1af59f2a87251a17411146d
+=======
+.historia-clinica .card {
+    margin-bottom: var(--spacing-md);
+}
+
+.historia-clinica h3 {
+    color: var(--clinyr-blue-secondary);
+>>>>>>> 909371aaed8ccdace1beca1c5fa38915fb365375
 }
