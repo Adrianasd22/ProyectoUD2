@@ -1,7 +1,5 @@
-.citas-list {
-    margin-top: var(--spacing-md);
-}
-
-.citas-list .card {
-    cursor: pointer;
+.filters {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
 }

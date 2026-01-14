@@ -1,19 +1,20 @@
-input,
-select,
-textarea {
-    width: 100%;
-    padding: var(--spacing-sm);
-    margin-bottom: var(--spacing-md);
-    border: 1px solid #ccc;
-    border-radius: var(--border-radius);
-}
-
-label {
-    font-weight: 600;
+.form-presc label {
     display: block;
-    margin-bottom: var(--spacing-xs);
+    margin-top: 8px;
+    font-weight: 600;
 }
 
-.form-group {
-    margin-bottom: var(--spacing-md);
+.form-presc input,
+.form-presc textarea {
+    width: 100%;
+}
+
+.search-inline {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.search-inline input {
+    flex: 1;
 }

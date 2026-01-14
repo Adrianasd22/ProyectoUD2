@@ -1,21 +1,13 @@
-table {
-    width: 100%;
+.table {
     border-collapse: collapse;
-    margin-bottom: var(--spacing-md);
+    width: 100%;
 }
 
-th,
-td {
-    padding: var(--spacing-sm);
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+.table thead {
+    background: #f1f5f9;
 }
 
-th {
-    background-color: var(--clinyr-blue-light);
-    color: var(--clinyr-gray-dark);
-}
-
-tr:hover {
-    background-color: #e9f2ff;
+.table th,
+.table td {
+    padding: 10px;
 }

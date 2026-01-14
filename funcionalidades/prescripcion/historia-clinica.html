@@ -1,52 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinyr - Historia Clínica</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Historia clínica — Clinyr</title>
     <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/pages/prescripcion-historia.css">
 </head>
 
 <body>
-    <header class="header">
-        <h1><a href="../../home.html">Clinyr</a></h1>
+    <header class="mini-header"><a href="buscador-pacientes.html">← Volver<!--Imagen de casa para volver--></a>
+        <h1>Historia clínica</h1>
     </header>
-    <main class="container historia-clinica">
-        <div class="card">
-            <h3>Paciente: Juan Pérez</h3>
-            <p>Edad: 34</p>
-            <p>Alergias: Ninguna</p>
-            <p>Antecedentes: Hipertensión</p>
-        </div>
-        <div class="card">
-            <h3>Consultas anteriores</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Fecha</th>
-                        <th>Motivo</th>
-                        <th>Prescripción</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>05/12/2025</td>
-                        <td>Dolor de espalda</td>
-                        <td>Ibuprofeno 400mg</td>
-                    </tr>
-                    <tr>
-                        <td>22/11/2025</td>
-                        <td>Chequeo general</td>
-                        <td>Ninguna</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+
+    <main class="container">
+        <section class="history">
+            <h2>Pérez López, Ana — Historia</h2>
+
+            <article class="card">
+                <h3>Antecedentes</h3>
+                <p>Hipertensión. <br> Alergia a penicilina. <br> Rotura de brazo.</p>
+            </article>
+
+            <article class="card">
+                <h3>Prescripciones recientes</h3>
+                <ul>
+                    <li>Paracetamol — 500 mg — 2025-11-10</li>
+                    <li>Ibuprofeno — 200 mg — 2025-10-21</li>
+                </ul>
+            </article>
+        </section>
     </main>
-    <footer class="footer">
-        &copy; 2025 Clinyr Hospital
-    </footer>
 </body>
 
 </html>
